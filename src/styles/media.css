@@ -1,0 +1,171 @@
+@media (max-width:1100px) {
+    .header__socials {
+        display: none;
+    }
+
+    .fix__img {
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .footer__social {
+        display: none;
+    }
+}
+
+
+
+@media (max-width:1000px) {
+    .fix__swipper {
+        display: block;
+
+    }
+
+    .fix__wrapper {
+        display: none;
+    }
+
+    .fix__card {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .fix__img {
+        width: 300px;
+        height: 300px;
+        border-radius: 0%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:500px) {
+    .header {
+        padding: 30px 0 20px;
+    }
+
+    .header__wrapper {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header__nav {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 250px;
+    }
+
+    .header__link {
+        margin-bottom: 20px;
+    }
+
+    .header {
+        margin: 0;
+    }
+
+    .header__contacts {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header__num {
+        font-size: 15px;
+    }
+
+    .header__logo {
+        width: 214px;
+        height: 130px;
+    }
+
+    .content__title {
+        font-size: 20px;
+        line-height: 37px;
+
+    }
+
+    .content__title::before {
+        bottom: 3px;
+    }
+
+    .hero__subtitle {
+        font-size: 20px;
+    }
+
+    .hero__categories-top {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero__category {
+        width: 47%;
+        margin-bottom: 30px;
+    }
+
+    .hero__none {
+        display: block;
+    }
+
+    .hero__media-none {
+        display: none;
+    }
+
+    .hero__category-bottom {
+        width: 47%;
+        width: 90%;
+    }
+
+    .hero__categories-top {
+        margin: 0;
+    }
+
+    .price__content {
+        grid-template-columns: 3fr 1fr 1fr;
+    }
+
+    .about {
+        padding: 54px 0 80px;
+    }
+
+    .about__title {
+        margin-bottom: 75px;
+
+    }
+
+    .faq__wrapper {
+        grid-template-columns: 1fr;
+        column-gap: 20px;
+    }
+
+    .accordion-title {
+        padding: 0;
+    }
+
+    .accordion .faq__button {
+        font-size: 1.1rem;
+    }
+
+    .models__wrapper {
+
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    .footer__wrapper {
+        gap:20px;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+    .footer__title {
+        text-align: center;
+    }
+    .footer__logo{
+        display: none;
+    }
+
+
+
+
+}
