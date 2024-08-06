@@ -29,7 +29,7 @@ const Footer = () => {
                                 г.Бишкек,
                             </p>
                             <p class="footer__contact">
-                                12 мкр 12
+                                Чуй 115/A
                             </p>
                         </div>
                         <div class="footer__contacts">
