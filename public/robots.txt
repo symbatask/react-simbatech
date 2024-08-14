@@ -1,12 +1,4 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
 
-
-
-
-
-
-
-Sitemap: https://simbatech.ru/sitemap.xml
-Host: https://simbatech.ru
+Sitemap: https://simbatech.kg/sitemap.xml
