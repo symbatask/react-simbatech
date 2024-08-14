@@ -12,7 +12,7 @@ const Hero = () => {
                     <img src={Logo} alt="logo"/>
                 </div>
                 <nav class="header__nav">
-                    <a href="#" class="header__link">
+                    <a href="#price" class="header__link">
                         НАШИ УСЛУГИ
                     </a>
                     <a href="#price" class="header__link">
