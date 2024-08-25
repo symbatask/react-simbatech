@@ -7,3 +7,30 @@ http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
    <lastmod>2024-08-01</lastmod>
 </url>
 </urlset>
+
+
+
+
+
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name simbatech.kg www.simbatech.kg;
+    return 301 https://$host$request_uri;
+}
+
+server {
+    listen 443 ssl;
+    listen [::]:443 ssl ipv6only=on;
+    server_name simbatech.kg www.simbatech.kg;
+    ssl_certificate /etc/letsencrypt/live/simbatech.kg/fullchain.pem; 
+    ssl_certificate_key /etc/letsencrypt/live/simbatech.kg/privkey.pem; 
+    include /etc/letsencrypt/options-ssl-nginx.conf; 
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; 
+    root /var/www/dist;
+    index index.html;
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+}
