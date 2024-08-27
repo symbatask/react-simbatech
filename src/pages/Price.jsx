@@ -201,7 +201,7 @@ const Price = () => {
 
         <div class="price__contact section__contact">
             <button class="custom-btn btn-5 hero__btn">
-                <a href="https://wa.me/+996552776764"> офорить заказ</a>
+                <a href="https://wa.me/+996552776764?text=Здравствуйте! Пишу вам из сайта. Хочу получить консультацию по ремонту стиральной машинки."> офорить заказ</a>
             </button>
         </div>
 

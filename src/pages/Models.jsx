@@ -60,7 +60,7 @@ const Models = () => {
 
                     <div class=" section__contact">
                         <button class="custom-btn btn-5 hero__btn">
-                            <a href="https://wa.me/+996552776764"> обратиться к нам</a>
+                            <a href="https://wa.me/+996552776764?text=Здравствуйте!  Хочу получить консультацию по ремонту стиральной машины. "> обратиться к нам</a>
                         </button>
                     </div>
 

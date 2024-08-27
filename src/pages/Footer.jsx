@@ -15,10 +15,10 @@ const Footer = () => {
                                 Телефоны:
                             </h3>
                             <p class="footer__contact">
-                                <a href="https://wa.me/+996552776764"> +996 (552) 77 - 67 - 64</a>
+                                <a href="https://wa.me/+996552776764?text=Здравствуйте! Пишу по поводу ремонта стиральной машины. "> +996 (552) 77 - 67 - 64</a>
                             </p>
                             <p class="footer__contact">
-                                <a href="https://wa.me/+996504776764"> +996 (504) 77 - 67 - 64</a>
+                                <a href="https://wa.me/+996504776764?text=Здравствуйте! Пишу по поводу ремонта стиральной машины. "> +996 (504) 77 - 67 - 64</a>
                             </p>
                         </div>
                         <div class="footer__contacts">
@@ -38,7 +38,7 @@ const Footer = () => {
                             </h3>
                             <div class="header__socials">
                                 <div class="header__social">
-                                    <a href="https://wa.me/+996552776764">
+                                    <a href="https://wa.me/+996552776764?text=Здравствуйте! Пишу по поводу ремонта стиральной машины. ">
                                         <img class="tn-atom__img t-img loaded"
                                             data-original="https://static.tildacdn.one/tild3465-3035-4531-b761-653933373364/whatsapp_1.png"
                                             alt="" imgfield="tn_img_1600623338934"
