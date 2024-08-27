@@ -177,13 +177,14 @@
         font-size: 20px;
     }
 
-
+    .hero__category{
+        font-size: 18px;
+        padding: 20px;
+    }
 }
 
 @media (max-width:430px) {
-    .hero__category{
-        font-size: 22px;
-    }
+    
     .price__content {
         grid-template-columns: 1.3fr 1fr 1fr;
     }
