@@ -18,7 +18,7 @@ const Footer = () => {
                                 <a href="https://wa.me/+996552776764"> +996 (552) 77 - 67 - 64</a>
                             </p>
                             <p class="footer__contact">
-                                <a href="https://wa.me/+996503911003"> +996 (503) 91 - 10 - 03</a>
+                                <a href="https://wa.me/+996504776764"> +996 (504) 77 - 67 - 64</a>
                             </p>
                         </div>
                         <div class="footer__contacts">
@@ -29,7 +29,7 @@ const Footer = () => {
                                 г.Бишкек,
                             </p>
                             <p class="footer__contact">
-                                Чуй 115A
+                               Скрябина 45а
                             </p>
                         </div>
                         <div class="footer__contacts">
