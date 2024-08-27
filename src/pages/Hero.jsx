@@ -29,11 +29,11 @@ const Hero = () => {
                     </a>
                 </nav>
                 <div class="header__contacts">
-                    <a href="https://wa.me/+996552776764" class="header__num">
+                    <a href="https://wa.me/+996552776764?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машинки." class="header__num">
                         +996 (552) 77 - 67 - 64
 
                     </a>
-                    <a href="https://wa.me/+996504776764" class="header__num">
+                    <a href="https://wa.me/+996504776764?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машинки." class="header__num">
                         +996 (504) 77 - 67 - 64
                     </a>
                 </div>
