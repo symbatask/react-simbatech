@@ -29,11 +29,11 @@ const Hero = () => {
                     </a>
                 </nav>
                 <div class="header__contacts">
-                    <a href="https://wa.me/+996552776764?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машинки." class="header__num">
+                    <a onclick="return gtag_report_conversion('https://wa.me/+996552776764')" href="https://wa.me/+996552776764?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машинки." class="header__num">
                         +996 (552) 77 - 67 - 64
 
                     </a>
-                    <a href="https://wa.me/+996504776764?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машинки." class="header__num">
+                    <a onclick="return gtag_report_conversion('https://wa.me/+996504776764')" href="https://wa.me/+996504776764?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машинки." class="header__num">
                         +996 (504) 77 - 67 - 64
                     </a>
                 </div>
@@ -109,7 +109,7 @@ const Hero = () => {
         </div>
         <div class="hero__contact  section__contact">
             <button class="custom-btn btn-5 hero__btn">
-                <a href="https://wa.me/+996552776764?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машины."> Связаться с нами</a>
+                <a onclick="return gtag_report_conversion('https://wa.me/+996552776764')" href="https://wa.me/+996552776764?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машины."> Связаться с нами</a>
             </button>
 
 

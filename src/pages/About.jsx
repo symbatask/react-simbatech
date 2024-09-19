@@ -84,7 +84,7 @@ const About = () => {
 
             <div class=" section__contact">
                 <button class="custom-btn btn-5 hero__btn">
-                    <a href="https://wa.me/+996552776764?text=Здравствуйте! Пишу вам из сайта. Хочу получить консультацию по ремонту стиральной машины."> вызвать мастера</a>
+                    <a onclick="return gtag_report_conversion('https://wa.me/+996552776764')" href="https://wa.me/+996552776764?text=Здравствуйте! Пишу вам из сайта. Хочу получить консультацию по ремонту стиральной машины."> вызвать мастера</a>
                 </button>
             </div>
         </div>
