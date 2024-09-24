@@ -201,7 +201,7 @@ const Price = () => {
 
         <div class="price__contact section__contact">
             <button class="custom-btn btn-5 hero__btn">
-                <a onclick="return gtag_report_conversion('https://wa.me/+996552776764')" href="https://wa.me/+996552776764?text=Здравствуйте! Пишу вам из сайта. Хочу получить консультацию по ремонту стиральной машинки."> офорить заказ</a>
+                <a id="whatsapp-link"  href="https://wa.me/+996552776764?text=Здравствуйте! Пишу вам из сайта. Хочу получить консультацию по ремонту стиральной машинки."> офорить заказ</a>
             </button>
         </div>
 
