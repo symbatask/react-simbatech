@@ -29,8 +29,8 @@ const Hero = () => {
                     </a>
                 </nav>
                 <div class="header__contacts">
-                    <a id="whatsapp-link"  href="https://wa.me/+996502911003?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машинки." class="header__num">
-                        +996 (502) 91-10-03
+                    <a id="whatsapp-link"  href="https://wa.me/+996504776764?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машинки." class="header__num">
+                        +996 (504) 77 - 67 - 64
 
                     </a>
                     <a id="whatsapp-link" href="https://wa.me/+996504776764?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машинки." class="header__num">
