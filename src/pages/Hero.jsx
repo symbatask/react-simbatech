@@ -87,7 +87,7 @@ const Hero = () => {
             </div>
             <div class="hero__category hero__none">
                 <p>
-                    Гарантия от 6 месяцев.
+                Отвечаем на звонки сразу!
 
                 </p>
             </div>
