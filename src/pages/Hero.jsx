@@ -59,35 +59,35 @@ const Hero = () => {
         </header>
         <div class="hero__content">
             <h1 class="hero__title content__title">
-                сломалась бытовая техника?
+                сломалась стиральная машина?
             </h1>
             <h3 class="hero__subtitle">
-                починим в течение 2 часов!
+                выедем за 30 минут!
             </h3>
 
         </div>
         <div class="hero__categories-top">
             <div class="hero__category">
                 <p>
-                    Ремонт стиральной машины
+                    Компания  №1 по ремонту техники.
 
                 </p>
             </div>
             <div class="hero__category">
                 <p>
-                    Ремонт холодильника
+                    Мастера со стажем от 7 лет.
 
                 </p>
             </div>
             <div class="hero__category">
                 <p>
-                    Ремонт кондиционера
+                    Самые лучшие цены по городу.
 
                 </p>
             </div>
             <div class="hero__category hero__none">
                 <p>
-                    Ремонт аристона
+                    Гарантия от 6 месяцев.
 
                 </p>
             </div>
@@ -97,13 +97,13 @@ const Hero = () => {
 
             <div class="hero__category hero__category-bottom hero__media-none">
                 <p>
-                    Ремонт аристона
+                    Отвечаем на звонки сразу!
 
                 </p>
             </div>
             <div class="hero__category hero__category-bottom">
                 <p>
-                    Прием запчастей
+                Гарантия от 6 месяцев.
                 </p>
             </div>
         </div>
