@@ -109,7 +109,7 @@ const Hero = () => {
         </div>
         <div class="hero__contact  section__contact">
             <button class="custom-btn btn-5 hero__btn">
-                <a id="whatsapp-link"  href="https://wa.me/+996552776764?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машины."> Связаться с нами</a>
+                <a id="whatsapp-link"  href="https://wa.me/+996509220011?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машины."> Связаться с нами</a>
             </button>
 
 

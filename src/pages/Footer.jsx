@@ -15,10 +15,10 @@ const Footer = () => {
                                 Телефоны:
                             </h3>
                             <p class="footer__contact">
-                                <a id="whatsapp-link"  href="https://wa.me/+996509220011?text=Здравствуйте! Пишу по поводу ремонта стиральной машины. "> +996 (552) 77 - 67 - 64</a>
+                                <a id="whatsapp-link"  href="https://wa.me/+996509220011?text=Здравствуйте! Пишу по поводу ремонта стиральной машины. "> +996 (509) 22 - 00 - 11</a>
                             </p>
                             <p class="footer__contact">
-                                <a id="whatsapp-link"  href="https://wa.me/+996999220011?text=Здравствуйте! Пишу по поводу ремонта стиральной машины. "> +996 (504) 77 - 67 - 64</a>
+                                <a id="whatsapp-link"  href="https://wa.me/+996999220011?text=Здравствуйте! Пишу по поводу ремонта стиральной машины. "> +996 (999) 22 - 00 - 11</a>
                             </p>
                         </div>
                         <div class="footer__contacts">
