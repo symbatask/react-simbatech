@@ -30,11 +30,11 @@ const Hero = () => {
                 </nav>
                 <div class="header__contacts">
                     <a id="whatsapp-link"  href="https://wa.me/+996509220011?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машинки." class="header__num">
-                        +996 (509) 22 - 00 - 11
+                        +996 (504) 77 - 67 - 64
 
                     </a>
                     <a id="whatsapp-link" href="https://wa.me/+996999220011?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машинки." class="header__num">
-                        +996 (999) 22 - 00 - 11
+                        +996 (552) 77 - 67 - 64
                     </a>
                 </div>
 
@@ -109,7 +109,7 @@ const Hero = () => {
         </div>
         <div class="hero__contact  section__contact">
             <button class="custom-btn btn-5 hero__btn">
-                <a id="whatsapp-link"  href="https://wa.me/+996509220011?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машины."> Связаться с нами</a>
+                <a id="whatsapp-link"  href="https://wa.me/+996504776764?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машины."> Связаться с нами</a>
             </button>
 
 

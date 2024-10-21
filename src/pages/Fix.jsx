@@ -346,7 +346,7 @@ const Fix = () => {
 
                     <div class=" section__contact">
                         <button class="custom-btn btn-5 hero__btn">
-                            <a id="whatsapp-link"  href="https://wa.me/+996509220011?text=Здравствуйте!  Хочу получить консультацию по ремонту стиральной машинки.">позвонить нам</a>
+                            <a id="whatsapp-link"  href="https://wa.me/+996504776764?text=Здравствуйте!  Хочу получить консультацию по ремонту стиральной машинки.">позвонить нам</a>
                         </button>
                     </div>
 
