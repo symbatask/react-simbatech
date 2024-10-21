@@ -29,18 +29,18 @@ const Hero = () => {
                     </a>
                 </nav>
                 <div class="header__contacts">
-                    <a id="whatsapp-link"  href="https://wa.me/+996509220011?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машинки." class="header__num">
+                    <a id="whatsapp-link"  href="https://wa.me/+996504776764?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машинки." class="header__num">
                         +996 (504) 77 - 67 - 64
 
                     </a>
-                    <a id="whatsapp-link" href="https://wa.me/+996999220011?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машинки." class="header__num">
+                    <a id="whatsapp-link" href="https://wa.me/+996552776764?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машинки." class="header__num">
                         +996 (552) 77 - 67 - 64
                     </a>
                 </div>
 
                 <div class="header__socials">
                     <div class="header__social">
-                        <a href="https://wa.me/+996509220011">
+                    <a id="whatsapp-link"  href="https://wa.me/+996504776764?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машинки." class="header__num">
                             <img class="tn-atom__img t-img loaded"
                                 data-original="https://static.tildacdn.one/tild3465-3035-4531-b761-653933373364/whatsapp_1.png"
                                 alt="" imgfield="tn_img_1600623338934"
