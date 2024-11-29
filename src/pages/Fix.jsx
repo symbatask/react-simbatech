@@ -6,6 +6,13 @@ import WM5 from "../assets/images/wm-5.jpg"
 import WM6 from "../assets/images/wm-6.jpg"
 import WM7 from "../assets/images/wm-7.jpg"
 const Fix = () => {
+    const handleConversion = () => {
+        window.gtag('event', 'conversion', {
+          'send_to': 'AW-16800718605/91kDCNvtwvAZEI2-mss-', 
+          'value': 1.0,  
+          'currency': 'USD', 
+        });
+      };
   return (
     <section class="fix" id="fix">
                 <div class="container">
@@ -346,7 +353,9 @@ const Fix = () => {
 
                     <div class=" section__contact">
                         <button class="custom-btn btn-5 hero__btn">
-                            <a id="whatsapp-link"  href="https://wa.me/+996504776764?text=Здравствуйте!  Хочу получить консультацию по ремонту стиральной машинки.">позвонить нам</a>
+                            <a id="whatsapp-link"  href="https://wa.me/+996504776764?text=Здравствуйте!  Хочу получить консультацию по ремонту стиральной машинки."
+                            onClick={handleConversion}
+                            >позвонить нам</a>
                         </button>
                     </div>
 

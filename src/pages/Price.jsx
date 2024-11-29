@@ -1,6 +1,13 @@
 import React from 'react'
 
 const Price = () => {
+    const handleConversion = () => {
+        window.gtag('event', 'conversion', {
+          'send_to': 'AW-16800718605/91kDCNvtwvAZEI2-mss-', 
+          'value': 1.0,  
+          'currency': 'USD', 
+        });
+      };
   return (
 <section class="price" id="price">
     <div class="container">
@@ -201,7 +208,9 @@ const Price = () => {
 
         <div class="price__contact section__contact">
             <button class="custom-btn btn-5 hero__btn">
-                <a id="whatsapp-link"  href="https://wa.me/+996504776764?text=Здравствуйте! Пишу вам из сайта. Хочу получить консультацию по ремонту стиральной машинки."> офорить заказ</a>
+                <a id="whatsapp-link"  href="https://wa.me/+996504776764?text=Здравствуйте! Пишу вам из сайта. Хочу получить консультацию по ремонту стиральной машинки."
+                onClick={handleConversion}
+                > офорить заказ</a>
             </button>
         </div>
 

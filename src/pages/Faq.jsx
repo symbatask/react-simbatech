@@ -51,6 +51,9 @@ const Faq = () => {
         },
     ];
 
+
+
+
     return (
         <section className="faq">
             <div className="container">

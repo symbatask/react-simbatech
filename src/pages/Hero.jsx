@@ -2,6 +2,13 @@ import React from 'react'
 import Logo from "../assets/images/logo.png"
 
 const Hero = () => {
+    const handleConversion = () => {
+        window.gtag('event', 'conversion', {
+          'send_to': 'AW-16800718605/91kDCNvtwvAZEI2-mss-', 
+          'value': 1.0,  
+          'currency': 'USD', 
+        });
+      };
   return (
     <section class="hero">
     <div class="container">
@@ -29,18 +36,24 @@ const Hero = () => {
                     </a>
                 </nav>
                 <div class="header__contacts">
-                    <a id="whatsapp-link"  href="https://wa.me/+996504776764?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машинки." class="header__num">
+                    <a id="whatsapp-link"  href="https://wa.me/+996504776764?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машинки." class="header__num"
+                    onClick={handleConversion}
+                    >
                         +996 (504) 77 - 67 - 64
 
                     </a>
-                    <a id="whatsapp-link" href="https://wa.me/+996552776764?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машинки." class="header__num">
+                    <a id="whatsapp-link" href="https://wa.me/+996552776764?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машинки." class="header__num"
+                    onClick={handleConversion}
+                    >
                         +996 (552) 77 - 67 - 64
                     </a>
                 </div>
 
                 <div class="header__socials">
                     <div class="header__social">
-                        <a href="https://wa.me/+996504776764?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машинки.">
+                        <a href="https://wa.me/+996504776764?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машинки."
+                        onClick={handleConversion}
+                        >
                             <img class="tn-atom__img t-img loaded"
                                 data-original="https://static.tildacdn.one/tild3465-3035-4531-b761-653933373364/whatsapp_1.png"
                                 alt="" imgfield="tn_img_1600623338934"
@@ -109,7 +122,9 @@ const Hero = () => {
         </div>
         <div class="hero__contact  section__contact">
             <button class="custom-btn btn-5 hero__btn">
-                <a id="whatsapp-link"  href="https://wa.me/+996504776764?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машины."> Связаться с нами</a>
+                <a id="whatsapp-link"  href="https://wa.me/+996504776764?text=Здравствуйте! Пишу вам из сайта. По поводу ремонта стиральной машины."
+                onClick={handleConversion}
+                > Связаться с нами</a>
             </button>
 
 
