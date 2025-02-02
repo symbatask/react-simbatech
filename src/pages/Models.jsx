@@ -1,13 +1,7 @@
 import React from 'react'
 
 const Models = () => {
-    const handleConversion = () => {
-        window.gtag('event', 'conversion', {
-          'send_to': 'AW-16800718605/91kDCNvtwvAZEI2-mss-', 
-          'value': 1.0,  
-          'currency': 'USD', 
-        });
-      };
+  
   return (
     <section class="models">
                 <div class="container">
@@ -68,7 +62,6 @@ const Models = () => {
                     <div class=" section__contact">
                         <button class="custom-btn btn-5 hero__btn">
                             <a id="whatsapp-link"  href="https://wa.me/+996504776764?text=Здравствуйте!  Хочу получить консультацию по ремонту стиральной машины. "
-                            onClick={handleConversion}
                             > обратиться к нам</a>
                         </button>
                     </div>
